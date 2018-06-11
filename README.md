@@ -37,7 +37,7 @@
 
 ## 5. Deploy
   - [Dapp, Custom Node: ToDo, Github](https://github.com/liuziyi/Dapp-Node-ToDo)
-  
+
 ## 6. App
   - Whenever metamask is running inside the browser, it automatically injects the web3 lib into any active page. The web3 version that has been injected into the page already has a provider set up inside of it. This provider is what allows communication with some given network e.g. Rinkeby. Any webpage with metamask installed in the browser will instantly get access to a copy of web3 that points to the Rinkeby test network.
   - The app will be using web3 version 1. However metamask will always inject web3 to the page and since it's using version 0 so to use version 1 of web3 got to replace the provider with the provider that's provided with metamask. This is because metamask has access to all of the account keys (public and private keys) and the provider is what stores those account keys
@@ -47,9 +47,9 @@
     - window.web3.currentProvider: the provider that's given to the copy of web3 from metamask. It's been pre-configured to connect to the Rinkeby test network and has access to all account keys
     - new Web3(window.web3.currentProvider): insert the provider from metamask to the local copy of web3
 
-    ![](images/app/web3-2.png)
+    ![](images/6-app/web3-2.png)
 
   - Local copy of deployed contract instance (/app/src/lottery.js)
     - Create local copy of the deployed contract instance
 
-    ![](images/app/local-copy.png)
+    ![](images/6-app/local-copy.png)
