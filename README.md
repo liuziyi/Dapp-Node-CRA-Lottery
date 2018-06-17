@@ -49,7 +49,11 @@
 
     ![](images/6-app/web3-2.png)
 
+    ![](images/6-app/web3-3.png)
+
   - Local copy of deployed contract instance (/app/src/lottery.js)
     - Create local copy of the deployed contract instance
 
     ![](images/6-app/local-copy.png)
+
+    ![](images/6-app/local-copy2.png)
